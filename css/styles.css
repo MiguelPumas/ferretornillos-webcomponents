@@ -1,0 +1,502 @@
+body{
+	background-color: #FFF ;
+	font-family: 'Oxygen', sans-serif;
+	font-size:1em;
+	margin: 0;
+	
+}
+
+.face{
+	background-color: #464646;
+	width: 100%;
+	height: 25px;
+}
+.face span{
+	color: #FFF;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.face a div{
+	width: 40px;
+	height: 20px;
+	float: right;
+}
+.face a div svg{
+	width: 40px;
+	height: 20px;
+}
+
+#header-nav{
+	background-color: #FFF;
+	width: 100%;
+	height: 115px;
+	padding: 0;
+	border:  0;
+	display: inline-block;
+}
+
+#Ferrelogo{
+	float: left;
+}
+
+#Ferrelogo a {
+	color: #000;
+	text-decoration: none;
+	background: #FFF;
+	clear: both;
+	margin-left: 0;
+}
+
+#logo-img{
+	
+	background: url('../images/logo.webp') no-repeat;
+	width: 300px;
+	height: 100px;
+	margin: 5px 10px 10px 100px;
+}
+
+#horarios, #direccion, #telefono {
+	float: left;
+	height: 100px;
+	width: 15%;
+	margin: 5px 15px 10px 10px;
+	padding-left: 1%;
+	text-align: Center;
+}
+
+#horarios ul, #direccion ul, #telefono ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+#telefono{
+	margin: 5px 100px 10px 10px;
+	float: left;
+
+}
+
+#horarios svg, #direccion svg, #telefono svg {
+	width: 48px;
+    height: 48px;
+    margin-top: 15px;
+    fill: red;
+    float: left;
+}
+
+
+#main-content {
+		display: inline-block;
+		width: 90%;
+		height: 450px;
+		/*background-color: #FFF;		*/
+		margin: 0 10px 0 70px;
+	}
+
+#productos {
+
+	width: 25%;
+	color: #000;
+	height: 445px;
+	float: left;
+}	
+
+#productos h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin: 0px;
+}
+
+#productos a{
+	color: #000;
+	margin-left: 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+#productos a svg {
+	color: #000;
+	width: 15px;
+	height: 15px;
+}
+
+#slicer {
+	float: left;
+	position: relative;
+	width: 70%;
+	display: inline-block;
+	height: 420px;
+	overflow: hidden;
+}
+
+#slicer myslades{
+	position: relative;
+	float: left;
+	margin: 0;
+	left: 0;
+	width: 100%;
+	text-align: left;	
+	animation: 5s ;	
+}
+
+#slicer figure img{	
+	float: left;
+}
+
+#descripcion{
+	width: 100%;
+	float: left;
+	height: auto;
+}
+
+#adicionales{
+	float: left;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+#desc{
+	float: leftss;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+}
+#desc h1 {
+	color: #212121;
+	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#desc p {
+	text-align: justify;
+	font-size: 1.5rem;
+}
+
+#envio{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 356px;
+}
+#ampliacion{
+	width: 356px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+}
+#milesprod{
+	float: left;
+	margin-left: auto;
+	margin-right: uato;
+	width: 356px;
+}
+
+#ampliacion h2, #ampliacion p, #milesprod h2, #milesprod p
+#envio h2, #envio p,{
+	margin: 0;
+}
+
+
+
+#envio svg, #milesprod svg, #ampliacion svg{
+	width: 128px;
+	height: 128px;
+	fill: red;
+}
+
+#visitanos{
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+#ubicacion{
+	float: left;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+.panel-footer{
+float: left;
+  border-top: 0;
+  height: 125px;
+  bottom: 0;
+  width: 100%;
+  background-color: #D3D5D8;
+}
+
+.acercade {
+	float: left;
+	width: 50%;
+	
+}
+
+.acercade p{
+	margin-left: 45px;
+	font-size: 15px;
+	color:  red;
+}
+
+.acercade span{
+	margin-left: 35px;
+	font-size: 25px;
+	color: red;
+	font-weight: bold;
+
+}
+
+.acercade p a{
+	font-style: italic;
+	text-decoration: none;
+	color: red;
+}
+
+#logo_original {
+	float: right;
+	width: 100px;
+	height: 100px;
+	margin: 5px 10px 10px 100px;
+
+}
+
+
+@media (min-width:  1200px) {
+
+}
+
+@media (min-width:  992px) and (max-width: 1199px){
+
+	body{
+		background-color: #000 ;
+		font-family: 'Oxygen', sans-serif;
+		font-size:1em;
+	}
+
+		#Ferrelogo a {
+		color: #000;
+		text-decoration: none;
+		background: #FFF;
+		clear: both;
+	}
+
+	#logo-img{	
+		background: url('../images/logo.webp') no-repeat;
+		width: 300px;
+		height: 100px;
+		margin: 5px 10px 10px 50px;
+	}
+
+	#horarios, #direccion, #telefono {
+		width: 20%;
+		float: left;
+		height: 100px;
+		margin: 0;
+		text-align: Center;
+	}
+
+	#horarios ul, #direccion ul, #telefono ul{
+		text-decoration: none;
+		list-style: none;
+	}
+
+} /* fin 992px - 1199px */
+
+
+@media (min-width:  768px) and (max-width:  991px){
+
+	body{
+		background-color: #F00 ;
+		font-family: 'Oxygen', sans-serif;
+		font-size:1em;
+	}
+
+		#Ferrelogo a {
+		color: #000;
+		text-decoration: none;
+		background: #FFF;
+		/*clear: both;*/
+	}
+
+	#logo-img{	
+		background: url('../images/logo.webp') no-repeat;
+		width: 260px;
+		height: 100px;
+		margin: 5px 5px 5px 5px;
+	}
+
+	#horarios, #direccion, #telefono {
+		width: 20%;
+		float: left;
+		height: 100px;
+		margin: 0;
+		text-align: Center;
+	}
+
+	#horarios ul, #direccion ul, #telefono ul{
+		text-decoration: none;
+		list-style: none;
+	}
+
+} /*Fin 768 px -991px*/
+
+@media (max-width: 767px){
+	body{
+	background-color: #FFF ;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	}
+	#Ferrelogo a {
+	color: #000;
+	text-decoration: none;
+	background: #FFF;
+	/*clear: both;*/
+	}
+
+	#logo-img{	
+	background: url('../images/logo.webp') no-repeat;
+	width: 75px;
+	height: 100px;
+	margin: 5px 5px 5px 5px;
+	}	
+
+	#horarios, #direccion, #telefono {
+	width: 25%;
+	float: left;
+	height: 100px;
+	margin: 0;
+	text-align: Center;
+	font-size: .75em;
+	}
+
+	#horarios ul, #direccion ul, #telefono ul{
+		text-decoration: none;
+		list-style: none;
+	}	
+	#header-nav{
+		background-color: #FFF;
+		height: 100px;
+	}
+
+	#horarios svg, #direccion svg, #telefono svg {
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 15px;
+		height: 15px;
+	}
+
+	.acercade {
+		float: left;
+		width: 30%;
+		
+	}
+
+	.acercade p{
+		margin-left: 5px;
+		font-size: 10px;
+	}
+
+	.acercade span{
+		margin-left: 5px;
+		font-size: 15px;
+		color: red;
+		font-weight: bold;
+
+	}
+
+	.acercade p a{
+		font-style: italic;
+		text-decoration: none;
+		color: #000;
+	}
+
+	#logo_original {
+		float: right;
+		width: 50px;
+		height: 50px;
+		/*margin: 5px 10px 10px 100px;*/
+
+	}
+
+}
+@media (max-width: 380px){
+	body{
+	background-color: #F00 ;
+	font-family: 'Oxygen', sans-serif;
+	font-size: 14px;
+	}
+	#Ferrelogo a {
+	color: #000;
+	text-decoration: none;
+	background: #FFF;
+	/*clear: both;*/
+	}
+
+	#logo-img{	
+	background: url('../images/logo.webp') no-repeat;
+	width: 75px;
+	height: 100px;
+	margin: 5px 5px 5px 5px;
+	}	
+
+	#horarios, #direccion, #telefono {
+	width: 20%;
+	float: left;
+	height: 100px;
+	margin: 0;
+	text-align: Center;
+	font-size: .75em;
+	}
+
+	#horarios ul, #direccion ul, #telefono ul{
+		text-decoration: none;
+		list-style: none;
+	}	
+	#header-nav{
+		background-color: #FFF;
+		height: 100px;
+	}
+
+	#horarios svg, #direccion svg, #telefono svg {
+		
+		margin-top: 15px;
+		margin-left: 5px;
+		width: 0px;
+		height: 0px;
+	}
+
+	.acercade {
+		float: left;
+		width: 30%;
+		
+	}
+
+	.acercade p{
+		margin-left: 5px;
+		font-size: 10px;
+	}
+
+	.acercade span{
+		margin-left: 5px;
+		font-size: 15px;
+		color: red;
+		font-weight: bold;
+
+	}
+
+	.acercade p a{
+		font-style: italic;
+		text-decoration: none;
+		color: #000;
+	}
+
+	#logo_original {
+		float: right;
+		width: 50px;
+		height: 50px;
+		/*margin: 5px 10px 10px 100px;*/
+
+	}
+
+}
