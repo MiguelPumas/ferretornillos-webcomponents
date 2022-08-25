@@ -86,14 +86,14 @@ body{
 
 #main-content {
 		display: inline-block;
-		width: 90%;
-		height: 450px;
+		width: 100%;
+		height: 700px;
 		/*background-color: #FFF;		*/
-		margin: 0 10px 0 70px;
+		/*margin: 0 10px 0 70px;*/
 	}
 
 #productos {
-
+	margin-left: 15px;
 	width: 25%;
 	color: #000;
 	height: 445px;
@@ -124,7 +124,7 @@ body{
 	position: relative;
 	width: 70%;
 	display: inline-block;
-	height: 420px;
+	height: auto;
 	overflow: hidden;
 }
 
@@ -148,17 +148,12 @@ body{
 	height: auto;
 }
 
-#adicionales{
-	float: left;
-	width: 100%;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 #desc{
-	float: leftss;
+	float: left;
 	width: 90%;
-	margin-left: auto;
+	/*margin-left: 25%;*/
 	margin-right: auto;
 	justify-content: center;
 }
@@ -263,13 +258,26 @@ float: left;
 
 
 @media (min-width:  1200px) {
+	#adicionales{
+	float: left;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr  1fr  1fr;
+	
+	}
+
+	#productos{
+	height: 550px;
+	font-size: 1.5em;
+	}
+
 
 }
 
 @media (min-width:  992px) and (max-width: 1199px){
 
 	body{
-		background-color: #000 ;
+		background-color: #FFF ;
 		font-family: 'Oxygen', sans-serif;
 		font-size:1em;
 	}
@@ -300,6 +308,34 @@ float: left;
 		text-decoration: none;
 		list-style: none;
 	}
+	#desc h1 {
+		font-size: 1.5em;
+
+	}
+	#desc p {
+		font-size: 1em;
+		text-align: center;
+
+	}
+	#envio, #ampliacion{
+		float: left;
+		width: 250px;
+		margin-left: 10%;
+	}
+	#envio svg, #milesprod svg, #ampliacion svg{
+	width: 64px;
+	height: 64px;
+	fill: red;
+	margin-left: 25%;
+	}
+	#envio h2, #milesprod h2, #ampliacion h2{
+		font-size: 1em;
+		text-align: center;
+	}
+	#envio p, #milesprod p, #ampliacion p{
+		font-size: .75em;
+		text-align: center;
+	}
 
 } /* fin 992px - 1199px */
 
@@ -307,7 +343,7 @@ float: left;
 @media (min-width:  768px) and (max-width:  991px){
 
 	body{
-		background-color: #F00 ;
+		background-color: #FFF ;
 		font-family: 'Oxygen', sans-serif;
 		font-size:1em;
 	}
@@ -339,6 +375,33 @@ float: left;
 		list-style: none;
 	}
 
+	#desc h1 {
+		font-size: 1.5em;
+
+	}
+	#desc p {
+		font-size: 1em;
+		text-align: center;
+
+	}
+	#envio, #ampliacion, #milesprod{
+		float: left;
+		width: 250px;
+	}
+	#envio svg, #milesprod svg, #ampliacion svg{
+	width: 64px;
+	height: 64px;
+	fill: red;
+	margin-left: 25%;
+	}
+	#envio h2, #milesprod h2, #ampliacion h2{
+		font-size: 1em;
+		text-align: center;
+	}
+	#envio p, #milesprod p, #ampliacion p{
+		font-size: .75em;
+		text-align: center;
+	}
 } /*Fin 768 px -991px*/
 
 @media (max-width: 767px){
@@ -347,6 +410,7 @@ float: left;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 14px;
 	}
+
 	#Ferrelogo a {
 	color: #000;
 	text-decoration: none;
@@ -373,7 +437,8 @@ float: left;
 	#horarios ul, #direccion ul, #telefono ul{
 		text-decoration: none;
 		list-style: none;
-	}	
+	}
+
 	#header-nav{
 		background-color: #FFF;
 		height: 100px;
@@ -419,84 +484,101 @@ float: left;
 
 	}
 
-}
-@media (max-width: 380px){
-	body{
-	background-color: #F00 ;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 14px;
+	#main-content {
+		display: inline-block;
+		width: 90%;
+		height: auto;
+		/*background-color: #FFF;		*/
+		/*margin: 0 10px 0 70px;*/
+		float: leftsss;
 	}
-	#Ferrelogo a {
+
+	#productos{
+		height: auto;
+
+	}
+
+	#productos h2{
+		font-size: .75em;
+	}
+
+
+	#productos a{
 	color: #000;
-	text-decoration: none;
-	background: #FFF;
-	/*clear: both;*/
-	}
-
-	#logo-img{	
-	background: url('../images/logo.webp') no-repeat;
-	width: 75px;
-	height: 100px;
-	margin: 5px 5px 5px 5px;
-	}	
-
-	#horarios, #direccion, #telefono {
-	width: 20%;
-	float: left;
-	height: 100px;
 	margin: 0;
-	text-align: Center;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
 	font-size: .75em;
 	}
 
-	#horarios ul, #direccion ul, #telefono ul{
-		text-decoration: none;
-		list-style: none;
-	}	
-	#header-nav{
-		background-color: #FFF;
-		height: 100px;
+	#productos a svg {
+	color: #000;
+	width: 7px;
+	height: 7px;
 	}
 
-	#horarios svg, #direccion svg, #telefono svg {
-		
-		margin-top: 15px;
-		margin-left: 5px;
-		width: 0px;
-		height: 0px;
+	#slicer {
+	float: left;
+	position: relative;
+	width: 70%;
+	display: inline-block;
+	height: 472px;
+	overflow: hidden;
 	}
 
-	.acercade {
-		float: left;
-		width: 30%;
-		
+
+	#adicionales{
+	float: left;
+	width: 90%;
+	/*display: grid;*/
+	/*grid-template-columns: 1fr  1fr  1fr;*/
 	}
 
-	.acercade p{
-		margin-left: 5px;
-		font-size: 10px;
+
+	#envio svg, #milesprod svg, #ampliacion svg{
+	width: auto;
+	height: 50px;
+	fill: red;
+	margin-left: 25%;
 	}
 
-	.acercade span{
-		margin-left: 5px;
-		font-size: 15px;
-		color: red;
-		font-weight: bold;
-
+	#ampliacion h2, #ampliacion p, #milesprod h2, #milesprod p,
+	#envio h2, #envio p{
+	margin-left: 20%;
+	font-size: .75em;
 	}
 
-	.acercade p a{
-		font-style: italic;
-		text-decoration: none;
-		color: #000;
+
+
+	#envio, #ampliacion, #milesprod {
+	width: 100%;
+	margin-left: 50%;
+	margin-right: auto;
 	}
 
-	#logo_original {
-		float: right;
-		width: 50px;
-		height: 50px;
-		/*margin: 5px 10px 10px 100px;*/
-
+	#ubicacion{
+	float: left;
+	margin-left: 30%;
+	margin-right: 30%;
+	width: auto;
 	}
 
-}
+
+	#descripcion{
+	width: 70%;
+	float: left;
+	height: auto;
+	}
+
+	#desc h1, #desc p{
+	margin-left: 25%;
+	width: 100%;
+	}
+
+
+
+
+}/*Fin max width:  767px)*/
+
+
