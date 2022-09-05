@@ -13,16 +13,33 @@
 </head>
 <body>
 	<div class="face">
-		<span>
-			ventas2@ferretornillosdesilao.com
-		</span>
-		<a href="https://www.facebook.com/FerretornillosDeSilao/" target="blank">
-			<div>
-			<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block;" ><g><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"></path></g></svg>
-				
-			</div>
-		</a>
+		<div class="ventas">
+			<span>
+				ventas2@ferretornillosdesilao.com
+			</span>
+		</div>
+		<div class="login">
+			<accesos-login>
+				<input type="text"
+                id="correo" placeholder="Correo-e" type="email" >
+				<input type="text"
+                id="correo" placeholder="Contraseña" type="Password" >
+				<button>Enviar</button>
+
+				<div slot="trigger">acceso</div>
+			</accesos-login>
+		</div>
+		<div class="facebook">
+			<a href="https://www.facebook.com/FerretornillosDeSilao/" target="blank">
+				<div>
+				<svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" style="pointer-events: none; display: block;" ><g><path d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z"></path></g></svg>
+					
+				</div>
+			</a>
+		</div>
+		
 	</div>
+	
 	<header>
 		<nav id="header-nav">
 			<div class conatiner>
@@ -63,6 +80,7 @@
 			</button> -->
 		</nav> <!--Fin del nav header-->
 	</header> <!--Fin del Header-->
+	<barra-busqueda></barra-busqueda>
 	<div id="main-content">
 		<div id="productos">
 			<h2>Productos</h2>
@@ -224,7 +242,7 @@
 			<div id=visitanos>
 				<h1>VISITANOS</h1>
 			</div>
-        	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2486.982983017257!2d-101.42221710155087!3d20.941901490206824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdcbc208c682b8d9!2sFerretornillos+De+Silao%2C+Silao%2C+Guanajuato!5e0!3m2!1ses-419!2smx!4v1535560021392" width="auto" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+        	<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2486.982983017257!2d-101.42221710155087!3d20.941901490206824!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcdcbc208c682b8d9!2sFerretornillos+De+Silao%2C+Silao%2C+Guanajuato!5e0!3m2!1ses-419!2smx!4v1535560021392" width="450" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
       	</div> <!-- find div ubicación-->
 
 	</div><!--fin descripcion-->
@@ -245,6 +263,8 @@
 			<img src="./images/logo_original.webp" id="logo_original">
 		</div><!--fin div logo_original-->
 	</footer><!--final footer-->
+
+	<script src="./dist/main.js" ></script>
 
 </body>
 </html>

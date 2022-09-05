@@ -6,8 +6,32 @@ body{
 	
 }
 
+.ventas, .login{
+	color: #FFF;
+	width: auto;
+	float: left;
+}
+.login{
+	margin-left: 10%;
+	font-weight: bolder;
+	float: right;
+	font-size: 1.25em;
+	margin-right: 10%;
+}
+
+accesos-login {
+	/* color: #FFF; */
+	width: 20%;
+}
+
+barra-busqueda {
+	height: 60px;
+	width: 100%;
+	margin-left: 25%;
+}
+
 .face{
-	background-color: #464646;
+	background-color: #666666;
 	width: 100%;
 	height: 25px;
 }
@@ -123,7 +147,6 @@ body{
 	float: left;
 	position: relative;
 	width: 70%;
-	display: inline-block;
 	height: auto;
 	overflow: hidden;
 }
@@ -153,8 +176,6 @@ body{
 #desc{
 	float: left;
 	width: 90%;
-	/*margin-left: 25%;*/
-	margin-right: auto;
 	justify-content: center;
 }
 #desc h1 {
@@ -168,6 +189,7 @@ body{
 #desc p {
 	text-align: justify;
 	font-size: 1.5rem;
+	margin-left: 5%;
 }
 
 #envio{
@@ -190,7 +212,7 @@ body{
 }
 
 #ampliacion h2, #ampliacion p, #milesprod h2, #milesprod p
-#envio h2, #envio p,{
+#envio h2, #envio p{
 	margin: 0;
 }
 
@@ -485,12 +507,11 @@ float: left;
 	}
 
 	#main-content {
-		display: inline-block;
 		width: 90%;
 		height: auto;
 		/*background-color: #FFF;		*/
 		/*margin: 0 10px 0 70px;*/
-		float: leftsss;
+		float: left;
 	}
 
 	#productos{
@@ -522,7 +543,6 @@ float: left;
 	float: left;
 	position: relative;
 	width: 70%;
-	display: inline-block;
 	height: 472px;
 	overflow: hidden;
 	}
@@ -576,9 +596,46 @@ float: left;
 	width: 100%;
 	}
 
+	#ubicacion iframe{
+		width:350px;
+	}
+
+	.ventas, .login{
+		color: #FFF;
+		width: auto;
+		float: left;
+	}
+	.login{
+		margin-left: 5%;
+		font-weight: bolder;
+		float: right;
+		font-size: 1.25em;
+		margin-right: 5%;
+	}
 
 
 
 }/*Fin max width:  767px)*/
+@media (max-width:480px) {
+	#ubicacion{
+		float: left;
+		margin-left: 10%;
+		margin-right: 10%;
+		width: auto;
+		}
+	#ubicacion iframe{
+		width:250px;
+	}
+	
+}
 
+@media (max-width: 480px){
+	#horarios, #direccion, #telefono {
+		width: 20%;
+		float: left;
+		height: 100px;
+		margin: 0;
+		font-size: .75em;
+	}
+}
 
